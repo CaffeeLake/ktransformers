@@ -1,7 +1,7 @@
 [build-system]
 requires = [
   "setuptools",
-  "torch >= 2.3.0", 
+  "torch >= 2.12.1", 
   "ninja",
   "packaging",
   "cpufeature"
@@ -15,7 +15,7 @@ name = "ktransformers"
 dynamic = ["version"]
 
 dependencies = [
-  "torch >= 2.3.0",
+  "torch >= 2.12.1",
   "transformers",
   "fastapi >= 0.111.0",
   "uvicorn >= 0.30.1",
